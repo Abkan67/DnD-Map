@@ -46,19 +46,19 @@
 }
 #toolbar {
   top: 0;
-  position: absolute;
+  position: fixed;
   right: 0;
   height: 100%;
   width: 370px;
   background-color: #D1D3C2;
+  z-index: 20;
 }
 #battleGrid {
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
-  width: 1000px;
-  background-image: url();
+  width: 100%;
   background-image: url("graphPaper.jpeg");
   background-size: 500px, 500px;
 }

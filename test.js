@@ -90,7 +90,7 @@ function stopMakingDiscMove() {
 
 function moveDisc(e) {
   document.getElementById(chosen).style.top = (e.y - document.getElementById(chosen).offsetHeight/2) + "px";
-  if (e.x <= 987.5) {document.getElementById(chosen).style.left = (e.x - document.getElementById(chosen).offsetWidth/2) + "px";}
+  document.getElementById(chosen).style.left = (e.x - document.getElementById(chosen).offsetWidth/2) + "px";
 }
 
 
