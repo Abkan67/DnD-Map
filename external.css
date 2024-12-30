@@ -1,0 +1,132 @@
+.sprites {
+  position: absolute;
+  border-radius: 50%;
+  background-color: yellow;
+  height: 25px;
+  width: 25px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: transparent;
+  top: 10px;
+  font-size: 10px;
+  text-align: center;
+}
+.images {
+  position: absolute;
+  border-radius: 0%;
+  height: 30px;
+  width: 30px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: transparent;
+  top: 0px;
+}
+#newButton {
+  position: fixed;
+  border-radius: 30%;
+  width: 60px;
+  height: 35px;
+  background-color: red;
+  color: white;
+  padding: 0px;
+  margin: 0px;
+  right: 305px;
+}
+#imageButton {
+  position: fixed;
+  border-radius: 30%;
+  width: 60px;
+  height: 35px;
+  background-color: orange;
+  color: white;
+  padding: 0px;
+  margin: 0px;
+  right: 305px;
+  top: 45px;
+}
+#toolbar {
+  top: 0;
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 370px;
+  background-color: #D1D3C2;
+}
+#battleGrid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 1000px;
+  background-image: url();
+  background-image: url("graphPaper.jpeg");
+  background-size: 500px, 500px;
+}
+#spriteInfo {
+  top: 0;
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 300px;
+  background-color: red;
+  display: none;
+}
+#spriteName {
+  position: absolute;
+  height: 45px;
+  width: 200px;
+  font-size: 20px;
+  right: 50px;
+  top: 40px;
+  background-color: #B1C2A2;
+  overflow: visible;
+  text-align: center;
+}
+#spriteDescription {
+  position: absolute;
+  height: 400px;
+  width: 275px;
+  font-size: 18px;
+  right: 12.5px;
+  top: 200px;
+  background-color: #DFDEDE;
+  overflow: auto;
+  text-align: center;
+}
+#deletion {
+  border-radius: 10%;
+  color: red;
+  width: 60px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  top: 100px;
+  right: 305px;
+}
+#changeSize {
+  border-radius: 10%;
+  color: white;
+  width: 60px;
+  height: 30px;
+  background-color: blue;
+  position: absolute;
+  top: 140px;
+  right: 305px;
+}
+#spriteDamage {
+  height: 15px;
+  width: 50px;
+  font-size: 12px;
+  background-color: white;
+  position: absolute;
+  top: 130px;
+  right: 125px;
+  text-align: center;
+}
+#done {
+  position: absolute;
+  bottom: 5px;
+  height: 20px;
+  width: 50px;
+  right: 5px;
+}
